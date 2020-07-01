@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KotlinStudy</string>
+    <string name="text_showinput_default">点击按钮后EditText输入内容会显示在这里</string>
+</resources>
