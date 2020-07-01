@@ -7,9 +7,9 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/eastActivity"
@@ -21,6 +21,7 @@
             android:textAllCaps="false"
             android:textColor="#000000"
             android:textSize="16sp" />
+
         <Button
             android:id="@+id/testDataType"
             android:layout_width="match_parent"
@@ -28,6 +29,28 @@
             android:layout_margin="8dp"
             android:gravity="center"
             android:text="TestDataTypeActivity"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/stringTestData"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:text="StringTestActivity"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/controlStatement"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:text="ControlStatementActivity"
             android:textAllCaps="false"
             android:textColor="#000000"
             android:textSize="16sp" />

@@ -28,6 +28,65 @@
             android:id="@+id/StringMethod"
             style="@style/testBtnStyle"
             android:text="StringMethodTest" />
+
+        <TextView
+            android:padding="8dp"
+            android:id="@+id/showStringMethodTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/stringSplice"
+            style="@style/testBtnStyle"
+            android:text="StringSpliceTest" />
+
+        <TextView
+            android:padding="8dp"
+            android:id="@+id/showStringSplice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/setTest"
+            style="@style/testBtnStyle"
+            android:text="SetTest" />
+
+        <TextView
+            android:padding="8dp"
+            android:id="@+id/showSetTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/setTest1"
+            style="@style/testBtnStyle"
+            android:text="SetTest是否无序" />
+
+        <TextView
+            android:padding="8dp"
+            android:id="@+id/showSetTest1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/listTest"
+            style="@style/testBtnStyle"
+            android:text="ListTest" />
+
+        <TextView
+            android:padding="8dp"
+            android:id="@+id/showListTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/mapTest"
+            style="@style/testBtnStyle"
+            android:text="MapTest" />
+
+        <TextView
+            android:padding="8dp"
+            android:id="@+id/showMapTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>
