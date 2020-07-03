@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/checkNull"
+                style="@style/testBtnStyle"
+                android:text="测试校验非空的运算符" />
+
+            <TextView
+                android:id="@+id/showCheckNull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/equalTest"
+                style="@style/testBtnStyle"
+                android:text="比较相等的测试" />
+
+            <Button
+                android:id="@+id/addressTest"
+                style="@style/testBtnStyle"
+                android:text="判断值和类型是否相等" />
+            <TextView
+                android:id="@+id/showAddressTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/isTest"
+                style="@style/testBtnStyle"
+                android:text="is关键字使用" />
+            <TextView
+                android:id="@+id/showIsTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/inTest"
+                style="@style/testBtnStyle"
+                android:text="in关键字使用" />
+            <TextView
+                android:id="@+id/showInTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/funTest"
+                style="@style/testBtnStyle"
+                android:text="fun测试" />
+            <TextView
+                android:id="@+id/showFunTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/funParmsTest"
+                style="@style/testBtnStyle"
+                android:text="funParms测试" />
+            <TextView
+                android:id="@+id/showFunParmsTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/funParmsArrayTest"
+                style="@style/testBtnStyle"
+                android:text="funParmsArray测试" />
+            <TextView
+                android:id="@+id/showFunParmsArrayTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/funTTest"
+                style="@style/testBtnStyle"
+                android:text="泛型参数测试" />
+            <TextView
+                android:id="@+id/showfunTTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/compareTest"
+                style="@style/testBtnStyle"
+                android:text="比较大小测试" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

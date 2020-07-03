@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".day2.ControlStatementActivity"></activity>
+        <activity android:name=".day4.FunctionActivity"></activity>
+        <activity android:name=".day3.ChecNullTestActivity" />
+        <activity android:name=".day2.ControlStatementActivity" />
         <activity android:name=".day1.StringTestActivity" />
         <activity android:name=".day1.TestDataType" />
         <activity android:name=".day1.EasyActivity" />

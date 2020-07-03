@@ -7,6 +7,8 @@ import com.renogy.kotlinstudy.day1.EasyActivity
 import com.renogy.kotlinstudy.day1.StringTestActivity
 import com.renogy.kotlinstudy.day1.TestDataType
 import com.renogy.kotlinstudy.day2.ControlStatementActivity
+import com.renogy.kotlinstudy.day3.ChecNullTestActivity
+import com.renogy.kotlinstudy.day4.FunctionActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -28,6 +30,12 @@ class MainActivity : AppCompatActivity() {
         }
         controlStatement.setOnClickListener {
             startActivity(Intent(this, ControlStatementActivity::class.java))
+        }
+        checkNullTest.setOnClickListener {
+            startActivity(Intent(this, ChecNullTestActivity::class.java))
+        }
+        functionTest.setOnClickListener {
+            startActivity(Intent(this, FunctionActivity::class.java))
         }
     }
 }

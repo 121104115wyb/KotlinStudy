@@ -130,6 +130,8 @@ class ControlStatementActivity : AppCompatActivity() {
             }
             Log.d("lookword", if (is_found) "我找到一了 ---$h " else "我没有找到 ---$h" )
         }
+
+
     }
 }
 

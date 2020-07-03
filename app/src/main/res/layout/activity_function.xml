@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day4.FunctionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/highFunction"
+            style="@style/testBtnStyle"
+            android:text="高阶函数" />
+
+        <TextView
+            android:id="@+id/showHighFunction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/dateFunction"
+            style="@style/testBtnStyle"
+            android:text="时间函数" />
+
+        <TextView
+            android:id="@+id/showDateFunction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/UtilTest"
+            style="@style/testBtnStyle"
+            android:text="测试工具类" />
+
+        <TextView
+            android:id="@+id/showUtilTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/testConstructor"
+            style="@style/testBtnStyle"
+            android:text="测试构造函数" />
+
+        <Button
+            android:id="@+id/testConstructorAttributes"
+            style="@style/testBtnStyle"
+            android:text="测试构造函数属性" />
+
+        <Button
+            android:id="@+id/testFunctionExtend"
+            style="@style/testBtnStyle"
+            android:text="测试类的继承" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
